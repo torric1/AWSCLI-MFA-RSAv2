@@ -36,7 +36,7 @@ awsconfigfile = '/.aws/credentials'
 sslverification = True
 
 # idpentryurl: The initial url that starts the authentication process.
-idpentryurl = 'https://sts.ros.gov.uk/adfs/ls/IdpInitiatedSignOn.aspx?loginToRp=urn:amazon:webservices'
+idpentryurl = 'https://<HOSTNAME>/adfs/ls/IdpInitiatedSignOn.aspx?loginToRp=urn:amazon:webservices'
 
 # Uncomment to enable low level debugging
 # logging.basicConfig(level=logging.DEBUG)
